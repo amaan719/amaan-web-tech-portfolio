@@ -71,7 +71,7 @@ export default function Hero() {
                 }}
               >
                 <img
-                  src="/developer-image.jpeg"
+                  src={`${import.meta.env.BASE_URL}developer-image.jpeg`}
                   alt="Amaan Web Tech developer"
                   style={{ width: '100%', borderRadius: 16, objectFit: 'cover', display: 'block', transition: 'transform 0.3s ease' }}
                 />
@@ -102,7 +102,7 @@ export default function Hero() {
                 }}
               >
                 <img
-                  src="/projects/developer-logo.png"
+                  src={`${import.meta.env.BASE_URL}projects/developer-logo.png`}
                   alt="Amaan Web Tech logo"
                   style={{ width: '100%', height: '100%', borderRadius: 14, objectFit: 'contain', display: 'block', background: '#fff', padding: 4 }}
                 />

@@ -7,7 +7,7 @@ export default function Footer() {
       >
         <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
           <img
-            src="/projects/developer-logo.png"
+            src={`${import.meta.env.BASE_URL}projects/developer-logo.png`}
             alt="Amaan Web Tech logo"
             style={{ width: 100, height: 50, borderRadius: 12, objectFit: 'cover', background: '#fff', padding: 4 }}
           />
