@@ -71,7 +71,7 @@ export default function Hero() {
                 }}
               >
                 <img
-                  src={`${import.meta.env.BASE_URL}developer-image.jpeg`}
+                  src={`${import.meta.env.BASE_URL}projects/developer-image.jpeg`}
                   alt="Amaan Web Tech developer"
                   style={{ width: '100%', borderRadius: 16, objectFit: 'cover', display: 'block', transition: 'transform 0.3s ease' }}
                 />

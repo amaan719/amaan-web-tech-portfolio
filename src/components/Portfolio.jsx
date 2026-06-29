@@ -11,19 +11,19 @@ const PROJECTS = [
     title: 'Local Business Website',
     tag: 'Website',
     desc: 'A fast, mobile-first website built for a local business to take bookings online.',
-    image: '/projects/image1.png',
+    image: `${import.meta.env.BASE_URL}projects/image1.png`,
   },
   {
     title: 'Bharat Enginnering Works',
     tag: 'App',
     desc: 'A simple, responsive web app built for a local business to showcase their services and portfolio.',
-    image: '/projects/image2.png',
+    image: `${import.meta.env.BASE_URL}projects/image2.png`,
   },
   {
     title: 'Food Website',
     tag: 'Website',
     desc: 'A fast, mobile-first website built for a local business to take bookings online.',
-    image: '/projects/image3.png',
+    image: `${import.meta.env.BASE_URL}projects/image3.png`,
   },
 ]
 
